@@ -18,10 +18,8 @@ import java.io.IOException;
 
 public class testRunnerTest {
     @AfterClass
-    public static void writeExtentReport() throws IOException {
-        /*final File CONF = new File("src/test/resources/spark-config.xml");
-        ExtentSparkReporter spark = new ExtentSparkReporter("target/spark/spark.html");
-        spark.loadXMLConfig(CONF);*/
+    public static void writeExtentReport() {
+     
     }
 
 }
